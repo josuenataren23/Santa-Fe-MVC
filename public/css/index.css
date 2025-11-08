@@ -1,0 +1,15 @@
+#banner{
+    background-image: url(../images/banner.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#banner::before{
+    content: '';
+    position: absolute;
+    z-index: 0;
+    background-color: rgba(22, 22, 22, .6);
+    width: 90%;
+    height: 80vh;
+    margin: auto;
+    border-radius: 6px;
+}
