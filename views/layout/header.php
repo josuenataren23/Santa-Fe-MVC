@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es" class=" scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <link rel="icon" href="<?php echo $icon; ?>">
@@ -11,7 +11,7 @@
 </head>
 <body class="bg-gray-800">
 <header class="navbar w-full h-[10vh] flex justify-between items-center px-[5%]  text-amber-100 font-medium fixed top-0 left-0 right-0 z-50 ease">
-    <div class="flex items-center gap-2">
+    <div class="flex items-center gap-2 cursor-pointer">
         <img src="<?php echo $icon; ?>" alt="Logo" class="w-[50px] hidden md:block">
         <h1 class=" text-2xl">Santa Fe</h1>
     </div>
