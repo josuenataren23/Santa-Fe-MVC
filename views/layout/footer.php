@@ -1,10 +1,24 @@
-<footer class="bg-gray-900 w-full h-fit text-white py-8 px-4 md:px-16">
+<footer class="bg-gray-950 w-full h-fit text-white py-8 px-4 md:px-16 mt-10">
     <section id="info/subnav" class="flex w-full h-fit justify-between align-top pb-4">
         <section id="info-santafe">
             <div id="social" class="flex gap-2">
-                <a href="" class="size-10 flex items-center justify-center p-2 rounded-full bg-blue-800" title="@Santa.fe"><i class="fa fa-solid fa-facebook"></i></a>
-                <a href="" class="size-10 flex items-center justify-center p-2 rounded-full bg-linear-to-tr from-orange-500 via-pink-600 to-purple-500" title="@Santa.fe"><i class="fa-brands fa-instagram"></i></a>
-                <a href="" class="size-10 flex items-center justify-center p-2 rounded-full bg-green-500"><i class="fa-brands fa-whatsapp" title="@Santa.fe"></i></a>
+                <a href="" class="size-10 flex items-center justify-center p-2 rounded-full" 
+                title="@Santa.fe">
+                <svg width="28px" height="28px">
+                <use xlink:href="./public/svg/sprite.svg#instagram" />
+            </svg>
+                </a>
+                <a href="" class="size-10 flex items-center justify-center p-2 rounded-full" 
+                title="@Santa.fe">
+                <svg width="28px" height="28px">
+                <use xlink:href="./public/svg/sprite.svg#facebook" />
+            </svg>
+                </a>
+                <a href="" class="size-10 flex items-center justify-center p-2 rounded-full">
+                <svg width="28px" height="28px">
+                <use xlink:href="./public/svg/sprite.svg#whatsapp" />
+            </svg>
+                </a>
             </div>
             <div id="text-sf" class="pt-4">
                 <p class="font-serif">SantaFe &copy; 2025</p>
@@ -25,14 +39,41 @@
     <hr class="my-2 h-0.75 bg-amber-100 border-collapse">
     <section id="info-dev">
         <div id="social" class="flex gap-2 pt-4">
-            <a href="" class="size-10 flex items-center justify-center p-2 rounded-full bg-linear-to-tr from-orange-500 via-pink-600 to-purple-500" title="@josue.ds3"><i class="fa-brands fa-instagram"></i></a>
-            <a href="" class="size-10 flex items-center justify-center p-2 rounded-full bg-black" title="@josue.ds3"><i class="fa-brands fa-tiktok"></i></a>
-            <a href="" class="size-10 flex items-center justify-center p-2 rounded-full bg-gray-700" title="@josue.ds3"><i class="fa-brands fa-github"></i></a>
+            <a href="" class="size-10 flex items-center justify-center p-2 
+            rounded-full " 
+            title="@josue.ds3">
+            <svg width="28px" height="28px">
+                <use xlink:href="./public/svg/sprite.svg#instagram" />
+            </svg>
+            
+        </a>
+            <a href="" class="size-10 flex items-center justify-center p-2 
+            rounded-full " 
+            title="@josue.ds3">
+           <svg width="28px" height="28px">
+                <use xlink:href="./public/svg/sprite.svg#tiktok" />
+            </svg>
+        </a>
+            <a href="" class="size-10 flex items-center justify-center p-2 
+            rounded-full " 
+            title="@josue.ds3">
+            <svg width="28px" height="28px">
+                <use xlink:href="./public/svg/sprite.svg#github" />
+            </svg>
+        </a>
         </div>
         <div id="text-dev" class="pt-4">
             <p class="font-mono">Desarrollado por Josue.DS3</p>
         </div>
     </section>
+
 </footer>
+<script src="node_modules/aos/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 1000,
+    offset: 100 
+  });
+</script>
 </body>
 </html>

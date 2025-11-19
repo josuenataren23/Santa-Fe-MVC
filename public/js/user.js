@@ -11,5 +11,22 @@ user.addEventListener('click', function() {
         cardUser.classList.remove('hidden');
         active = true;
     }
-    console.log('card user:', active);
+    // console.log('card user:', active);
+});
+
+const user_r = document.querySelector('#user-responsive');
+const cardUser_r = document.querySelector('#card-user-responsive');
+let active_r = false;
+
+user_r.addEventListener('click', function() {
+    if (active_r) {
+        cardUser_r.classList.add('hidden');
+        active_r = false;
+    } else {
+        
+        cardUser_r.classList.remove('hidden');
+        active_r = true;
+    }
+    // console.log('card user responsive:', active_r);
+
 });
