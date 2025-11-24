@@ -1,7 +1,10 @@
 const user = document.querySelector('#user');
 const cardUser = document.querySelector('#card-user');
+const login = document.querySelector('#login');
 let active = false;
-
+if(window.location.href.includes('controller=Auth&action=LoginForm')){
+    login.style.display = 'none';
+}
 user.addEventListener('click', function() {
     if (active) {
         cardUser.classList.add('hidden');
