@@ -18,11 +18,13 @@
                     before:border-4 before:border-amber-200">
                 <img src="public/images/capuchino-sf.jpg" alt="image-cafe" class="w-full h-full object-cover">
             </div>            
-            <p data-aos="fade-up" data-aos-delay="100" class=" text-pretty md:w-1/2 text-amber-50 md:text-2xl mt-12 md:mt-0 ">
+            
+                <p data-aos="fade-up" data-aos-delay="100" class=" text-balance md:w-1/2 text-amber-50 md:text-2xl mt-12 md:mt-0 ">
                 En <strong>Santa Fe</strong> nuestro objetivo es brindarte una experiencia culinaria única. Con pasión y dedicación, nos
                 esforzamos por ofrecerte sabores auténticos y un ambiente acogedor. En Santa Fe, estamos listos para
                 deleitarte con nuestros deliciosos platillos y hacer que cada visita sea memorable.
             </p>
+            
         </div>
         <div id="card2" class="w-full flex not-md:flex-col md:justify-around items-center">
             <div data-aos="zoom-in" data-aos-delay="100" class="relative w-50 md:w-1/6 rotate-10
@@ -31,11 +33,13 @@
                     before:border-4 before:border-amber-200
                     md:order-last">
                 <img src="public/images/cafe.jpg" alt="image-cafe" class="w-full h-full object-cover">
-            </div>            
-            <p data-aos="fade-up" class=" text-pretty md:w-1/2 text-amber-50 md:text-2xl mt-12 md:mt-0 ">
+            </div>
+
+            <p data-aos="fade-up" class=" text-balance md:w-1/2 text-amber-50 md:text-2xl mt-12 md:mt-0 ">
                 <strong>Santa Fe</strong>, fue creado para poder ofrecer en cada uno de nuestros platillos, un poco del sabor y amor de hogar, 
                 a las personas que visitan nuestro restaurante y con ello, siempre tengan ganas de volver.
             </p>
+
         </div>
         <div id="card3" class="w-full flex not-md:flex-col md:justify-around items-center">
             <div data-aos="zoom-in" class="relative w-50 md:w-1/6 -rotate-10
@@ -43,12 +47,18 @@
                     before:-z-50 before:left-0 before:top-0 before:rotate-12 
                     before:border-4 before:border-amber-200">
                 <img src="public/images/lugar-sf.jpg" alt="image-cafe" class="w-full h-full object-cover">
-            </div>            
-            <p data-aos="fade-up" data-aos-delay="100" class=" text-pretty md:w-1/2 text-amber-50 md:text-2xl mt-12 md:mt-0 ">
+            </div>
+
+            <p data-aos="fade-up" data-aos-delay="100" class=" text-balance md:w-1/2 text-amber-50 md:text-2xl mt-12 md:mt-0 ">
                 Nuestro local ofrece un ambiente cálido y familiar pensado para que cada visita sea un momento para recordar: 
                 mesas cómodas, atención cercana y un rincón acogedor donde podrás disfrutar de nuestros platillos caseros acompañado de buena compañía.
             </p>
+
         </div>
+    </section>
+    <!-- preview menu -->
+    <section class="w-full h-50 bg-gray-900 dark:bg-gray-300 text-center py-4">
+        
     </section>
 
 </main>
